@@ -6,10 +6,13 @@ Python 2.7.6
 ### 环境配置及使用说明
 首先，建议安装**Python的虚拟环境**到你的系统上：		
 Ubuntu用户可以如此安装：		
-> $ sudo apt-get install python-virtualenv		
+```Python
+$ sudo apt-get install python-virtualenv		
+```
 如何你使用的是Mac OS X，你可以这样安装：		
-> $ sudo easy_install virtualenv		
-
+```Python
+$ sudo easy_install virtualenv		
+```
 
 然后，在zhihu_crawler文件夹里创建虚拟环境并激活虚拟环境：		
 **注：指令不适用于windows平台**		
