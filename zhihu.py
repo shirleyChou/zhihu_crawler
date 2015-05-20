@@ -38,8 +38,8 @@ _column_GET_posts_limit = _column_GET_posts[:-4] + '?limit=10&offset={1}'
 _re_question_url = re.compile(r'http://www\.zhihu\.com/question/\d+/?$')
 _re_author_url = re.compile(r'http://www\.zhihu\.com/people/[^/]+/?$')
 _re_column_url = re.compile(r'http://zhuanlan\.zhihu\.com/([^/]+)/?$')
-re = (r'http://zhuanlan\.zhihu\.com/([^/]+)/(\d+)/?$')
-_re_column_article_url = re.compile(re)
+_re_column_article_url = re.compile(
+    r'http://zhuanlan\.zhihu\.com/([^/]+)/(\d+)/?$')
 _re_collection_url = re.compile(r'http://www\.zhihu\.com/collection/\d+/?$')
 
 
