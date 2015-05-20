@@ -14,11 +14,12 @@ $ sudo apt-get install python-virtualenv
 $ sudo easy_install virtualenv		
 ```
 
-然后，在zhihu_crawler文件夹里创建虚拟环境并激活虚拟环境：		
-**注：指令不适用于windows平台**		
-> ~/zhihu_crawler$ virtualenv venv
-> ~/zhihu_crawler$ source venv/bin/activate
 
+接着在zhihu_crawler文件夹里创建虚拟环境并激活虚拟环境：		
+```Python
+~/zhihu_crawler$ virtualenv venv		
+~/zhihu_crawler$ source venv/bin/activate
+```
 在激活的虚拟环境里使用pip安装Python的第三方库：		
 > (venv)$ pip install -r requirements.txt		
 
