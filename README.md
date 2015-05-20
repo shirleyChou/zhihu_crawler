@@ -1,12 +1,12 @@
 
 ## 介绍
-zhihu_crawler是一个用于**抓取**[知乎](http://www.zhihu.com/)上的[问题](http://www.zhihu.com/question/29693016)、[用户](http://www.zhihu.com/people/xie-ke-41)以及[专栏](http://zhuanlan.zhihu.com/niceliving)里的相关信息的项目。  
+zhihu_crawler是一个用于抓取[知乎](http://www.zhihu.com/)上的[问题](http://www.zhihu.com/question/29693016)、[用户](http://www.zhihu.com/people/xie-ke-41)以及[专栏](http://zhuanlan.zhihu.com/niceliving)里相关信息的项目。  
 
 zhihu_crawler基于**Python 2.7.6编写，并在Xubuntu 14.04上编译通过**。在其他系统上使用可能存在一定的问题。  
 
 
 ## 环境配置
-1. 在使用前，首先建议安装**Python的虚拟环境**：  
+在使用前，首先建议安装Python的虚拟环境virtualenv：  
 Ubuntu用户可以如此安装：  
 ```Python
 $ sudo apt-get install python-virtualenv  
@@ -18,21 +18,24 @@ $ sudo easy_install virtualenv
 windows请百度^_^  
 
 
-2. 接着在zhihu_crawler文件夹里创建并激活虚拟环境：  
+
+接着在zhihu_crawler文件夹里创建并激活虚拟环境：  
 ```Python
 ~/zhihu_crawler$ virtualenv venv  
 ~/zhihu_crawler$ source venv/bin/activate
 ```
-3. 在激活的虚拟环境里使用pip安装Python的第三方库：  
+
+
+在激活的虚拟环境里使用pip安装zhihu.py需要使用的第三方库：  
 ```Python
 (venv)$ pip install -r requirements.txt  
 ```
 
 ## 使用说明
-**注**：
-1. **请在激活的虚拟环境下进行项目的使用**
-2. **在正式使用之前请先调用zhihu.create_cookies以便模拟登陆知乎！**
-3. **在看到"cookies file created!"以后会生成"cookies.json"文件，请保证其与"zhihu.py"在同一个文件夹中**
+**注**：  
+1. 请在激活的虚拟环境下进行项目的使用  
+2. 在正式使用之前请先调用**zhihu.create_cookies**以便模拟登陆知乎！  
+3. 在看到"cookies file created!"以后会生成"cookies.json"文件，请保证其与"zhihu.py"在同一个文件夹中  
 
 ```Python
 $ python
