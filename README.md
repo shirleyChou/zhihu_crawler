@@ -49,7 +49,8 @@ captcha: <请将在zhihu_crawler文件夹中生成的captcha.gif的验证码手�
 cookies file created!
 ```
 
-zhihu.py里包含的class, method和method的作用如下， 仅支持以Markdown格式保存内容。**具体的使用方法和效果请参考usg_exp.py**  
+zhihu.py里包含的class, method和method的作用如下，仅支持以Markdown格式保存内容。  
+**具体的使用方法和效果请参考usg_exp.py**  
 
 ```Python
 class Question
