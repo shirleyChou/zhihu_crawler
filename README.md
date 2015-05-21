@@ -59,8 +59,8 @@ class Question
  |-answer_followers       (问题关注者人数)
  |-answer_num             (问题回答数量)
  |-top_answer             (排在最前面的回答)
- |-top_i_answers	         (排在前几名的回答）
- |-all_answers		          (全部答案)
+ |-top_i_answers	      (排在前几名的回答）
+ |-all_answers		       (全部答案)
 
  
 class Author
