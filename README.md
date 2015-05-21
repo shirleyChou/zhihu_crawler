@@ -60,31 +60,31 @@ class Question
  |-answer_num             (问题回答数量)
  |-top_answer             (排在最前面的回答)
  |-top_i_answers	      (排在前几名的回答）
- |-all_answers		       (全部答案)
+ |-all_answers		      (全部答案)
 
  
 class Author
- |-get_people_name	(获取用户姓名)
- |-get_people_location	(获取用户所在地点)
- |-get_people_career	(获取用户的职业介绍)
- |-get_people_educate	(获取用户的教育情况)
- |-get_self_description (获取用户的自我介绍)
- |-get_agree_num	(获取得到的赞同数)
- |-get_thanks_num	(获取得到的感谢数)
- |-get_topics		(获取people擅长的话题)
- |-answers_num		(获取回答问题的数量)
- |-all_answers		(获得该作者的所有答案)
- |-top_vote_answers	(获取得到排名最高的前几个答案)
- |-newly_creates_answers(获取最新回答的前几个答案)
+ |-get_people_name	       (获取用户姓名)
+ |-get_people_location	   (获取用户所在地点)
+ |-get_people_career	     (获取用户的职业介绍)
+ |-get_people_educate	    (获取用户的教育情况)
+ |-get_self_description   (获取用户的自我介绍)
+ |-get_agree_num	         (获取得到的赞同数)
+ |-get_thanks_num	        (获取得到的感谢数)
+ |-get_topics		           (获取people擅长的话题)
+ |-answers_num		          (获取回答问题的数量)
+ |-all_answers		          (获得该作者的所有答案)
+ |-top_vote_answers	      (获取得到排名最高的前几个答案)
+ |-newly_creates_answers  (获取最新回答的前几个答案)
 
 
 class Column
- |-title		(专栏名称)
- |-owner		(获取专栏创建者)
- |-followers		(获取专栏关注人数)
- |-description		(获取专栏描述)
- |-num			(获取专栏文章数)
- |-posts		(获取专栏所有文章)
+ |-title		                 (专栏名称)
+ |-owner		                 (获取专栏创建者)
+ |-followers		             (获取专栏关注人数)
+ |-description		           (获取专栏描述)
+ |-num			                  (获取专栏文章数)
+ |-posts		                 (获取专栏所有文章)
 
 class ColumnArticles
  |-column		(文章所在专栏)
