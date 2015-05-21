@@ -64,8 +64,8 @@ class Question
 
  
 class Author
- |-get_people_name	       (获取用户姓名)
- |-get_people_location	   (获取用户所在地点)
+ |-get_people_name	      (获取用户姓名)
+ |-get_people_location	  (获取用户所在地点)
  |-get_people_career	     (获取用户的职业介绍)
  |-get_people_educate	    (获取用户的教育情况)
  |-get_self_description   (获取用户的自我介绍)
