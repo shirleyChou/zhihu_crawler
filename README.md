@@ -49,19 +49,18 @@ captcha: <请将在zhihu_crawler文件夹中生成的captcha.gif的验证码手�
 cookies file created!
 ```
 
-然后请放心大胆的使用吧！  
-zhihu.py里包含的class, method和method的作用如下。**另外使用效果请参考usg_exp.py**  
+zhihu.py里包含的class, method和method的作用如下， 仅支持以 *.md格式保存内容。**具体的使用方法和效果请参考usg_exp.py**  
 
 ```Python
 class Question
- |-get_tags		(问题标签)
- |-get_question		(问题标题)
+ |-get_tags		       (问题标签)
+ |-get_question		   (问题标题)
  |-ques_description	(问题描述)
  |-answer_followers	(问题关注者人数)
- |-answer_num		(问题回答数量)
- |-top_answer		(排在最前面的回答)
- |-top_i_answers	(排在前几名的回答）
- |-all_answers		(全部答案)
+ |-answer_num		     (问题回答数量)
+ |-top_answer		     (排在最前面的回答)
+ |-top_i_answers	   (排在前几名的回答）
+ |-all_answers		    (全部答案)
 
  
 class Author
