@@ -83,7 +83,7 @@ class Column
  |-owner		          (获取专栏创建者)
  |-followers		      (获取专栏关注人数)
  |-description		      (获取专栏描述)
- |-num			           (获取专栏文章数)
+ |-num			          (获取专栏文章数)
  |-posts		          (获取专栏所有文章)
 
 class ColumnArticles
